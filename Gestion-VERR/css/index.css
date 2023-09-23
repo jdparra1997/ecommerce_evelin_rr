@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	list-style: none;
+}
+body{
+	width: 100%;
+	background: #eee;
+}
+button{
+	padding: 10px;
+	cursor: pointer;
+}
+.main-container{
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+.body-nav-bar{
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+	background: #2E64FE;
+	color: white;
+}
+.body-nav-bar img{
+	padding-top: 20px 0;
+	width: 100%;
+}
+.body-nav-bar ul li{
+	display: flex;
+}
+.mt10{
+	margin-top: 10px;
+}
+.body-nav-bar ul li a{
+	padding: 10px;
+	width: 100%;
+	text-decoration: none;	
+	color: white;
+}
+.body-nav-bar ul li a:hover{
+	color: #333;
+	background: #A9BCF5;
+}
+.body-page{
+	width: calc(100% - 180px);
+	padding: 10px;
+	height: 100%;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+
+}
+th,td{
+	padding: 5px;
+	border: 1px solid #444;	
+}
+th{
+	background:#2E64FE;
+	color: white;
+}
+td{
+	background: #fff;
+	color: black;
+}
+.td-option{
+	width: 60px;
+}
+.div-td-opt-button{
+	width: 40px;
+	margin: auto;
+}
+.div-td-opt-button button{
+	width: 40px;
+	padding: 5px;
+	cursor: pointer; 
+}
+.div-flex{
+	display: flex;
+}
+.div-td-button{
+	width: 40px;
+	margin: auto;
+}
+.div-td-button button{
+	width: 30px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	background: rgba(50, 50, 50, 0.5);	
+}
+.body-modal{
+	position: relative;
+	width: 100%;
+	max-width: 500px;
+	padding: 10px;
+	background: white;
+	border-radius: 5px;
+	margin: auto	
+}
+.btn-close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+input{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+select{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.body-modal .div-flex{
+	display: flex;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.body-modal .div-flex label{
+ width: 100px;
+}
+.body-modal .div-flex input{
+ width: calc(100% - 100px);
+}
+.body-modal .div-flex select{
+ width: calc(100% - 100px);
+}
+
